@@ -197,57 +197,70 @@ section {
 /* 2st section completed */
 /* 3rd section completed */
 /* 4th section completed */
-.secoundlastheight {
-    height: 160vh;
+
+.two-inner{
+    border: 2px solid yellow;
+    width: 100%;
+    padding: 20px;
 }
 
-.Secoundlast {
-    width: 80vw;
-    margin: auto;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
-.Secoundlast .one {
+
+
+/* muzmail baig */
+.secoundlastheight{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+.secoundlastheight .one {
     text-align: center;
     font-size: 48px;
     font-weight: 900;
     padding-top: 40px;
     margin: 10px;
+    color: #fff;
 }
 
-.Secoundlast .two {
-    width: 100%;
-    background-color: #2d2d2d;
+.question{
     padding: 10px;
-    margin: 10px;
-    font-size: 24px;
-    font-weight: 100;
+    width: 80%;
+    z-index: 10;
+    margin: 6px;
+    margin: 0 auto;
+
+}
+.question .show{
+    background-color: #2d2d2d;;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-}
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 100;
 
-.Secoundlast .two:hover {
+}
+.question .show:hover{
     background-color: #414141;
 }
-
-.two-inner-right p {
-    font-size: 48px;
+.show h2{
+    padding: 10px 14px;
+    color: white;
+    
 }
+.question .hide{
+    overflow: hidden;
+    height: 0px;
 
-/* two complted */
-.Secoundlast .three {
+    color: #fff;
+}
+.question .hide > p{
     font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    padding: 20px;
-    margin-top: 20px;
 }
+/* muzmail biag */
+
+
 
 /* Secound last complted */
 footer {
